@@ -1,0 +1,97 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+#we{
+    font-size: 22px;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:10px ;
+    font-size: 17px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0px 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    height: 425px;
+    width: 300px;
+}
+input{
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(212, 222, 240);
+    padding: 5px;
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    height:40px;
+}
+input[type="submit"]:hover{
+    color: black;
+    /* background-color: #af9608; */
+    background-color: goldenrod;
+    transform:scaley(1.2);
+    transition: ease-in-out 500ms;
+}
+input::placeholder{
+    text-transform: none;
+}
+label{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons{
+    height: 40px; 
+     width: 40px; 
+    margin: 10px 0px;
+    border: 2px solid rgb(212, 222, 240);
+    border-radius:10px ;
+    background-color:white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icons:hover{
+    transition: ease-in-out 500ms;
+    scale: 1.2;
+}
+#icon_google{
+    background-image:url(google.jpg) ;
+}
+#icon_facebook{
+    background-image: url(facebook-logo.webp);
+}
+#icon_apple{
+    background-image: url(apple.png);
+}

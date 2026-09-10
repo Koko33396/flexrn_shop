@@ -54,6 +54,7 @@ input[type="submit"]{
     padding: 10px;
     text-transform: uppercase;
     height:40px;
+    cursor:pointer;
 }
 input[type="submit"]:hover{
     color: black;
